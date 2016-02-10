@@ -78,5 +78,5 @@ co(function*() {
   var apiContent = apiContents.join('\n');
   var introductionBuffer = yield cofs.readFile(dirPath + '/index.md');
   var result = introductionBuffer.toString() + apiContent;
-  write('source/index.md', result);
+  write('source/index.html.md', result);
 }).catch(onerror);
