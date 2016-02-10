@@ -1,0 +1,24 @@
+{
+  "name": "slate",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"https://raw.githubusercontent.com/lord/img/master/logo-slate.png\" alt=\"Slate: API Documentation Generator\" width=\"226\">   <br>   <a href=\"https://travis-ci.org/tripit/slate\"><img src=\"https://travis-ci.org/tripit/slate.svg?branch=master\" alt=\"Build Status\"></a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-recruit/slate.git"
+  },
+  "author": "ocowchun <ocowchun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudo-recruit/slate/issues"
+  },
+  "homepage": "https://github.com/sudo-recruit/slate#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-fs": "^1.2.0",
+    "lodash": "^4.3.0"
+  }
+}
